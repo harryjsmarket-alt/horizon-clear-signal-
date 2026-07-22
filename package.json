@@ -1,0 +1,12 @@
+{
+  "name": "horizon-signal",
+  "version": "1.0.0",
+  "description": "Attribution Engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
