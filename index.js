@@ -1,11 +1,10 @@
 const express = require('express');
-const express = require('express');
 const { Pool } = require('pg');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Horizon Signal is LIVE!');
+    res.send('Horizon Clear Signal is LIVE!');
 });
 
 app.get('/db-test', async (req, res) => {
