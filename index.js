@@ -1,8 +1,4 @@
-app.listen()
-// Health check for Railway
-app.get('/health', (req, res) => {
-    res.status(200).send('OK');
-});const express = require('express');
+const express = require('express');
 const { Pool } = require('pg');
 const app = express();
 const PORT = process.env.PORT || 3000;
